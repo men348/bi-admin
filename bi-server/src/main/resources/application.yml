@@ -1,0 +1,34 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://10.20.20.186:9001/eureka/
+  instance:
+      ip-address: 10.20.20.48
+      prefer-ip-address: true
+      metadata-map:
+        instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+server:
+  port: 9090
+
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@10.20.20.48:1521:xe
+    username: system
+    password: oracle
+    connection-timeout: 1000000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+secondary:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.201.44:1521:orcl
+    username: NEWDAAS
+    password: NEWDAAS
+    driverClassName: oracle.jdbc.OracleDriver
+    connection-timeout: 1000000
