@@ -9,7 +9,7 @@
 
     <artifactId>bi-server</artifactId>
     <packaging>jar</packaging>
-    <name>bi-server Maven Webapp</name>
+    <name>bi-server</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>

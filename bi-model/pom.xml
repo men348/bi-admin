@@ -8,7 +8,7 @@
     </parent>
     <artifactId>bi-model</artifactId>
     <packaging>jar</packaging>
-    <name>bi-model Maven Webapp</name>
+    <name>bi-model</name>
     <url>http://maven.apache.org</url>
 
     <build>
