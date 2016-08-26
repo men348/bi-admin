@@ -765,7 +765,7 @@ public class EnterpriseBasic {
         this.S_EXT_VALIDFLAG = S_EXT_VALIDFLAG;
     }
 
-    @MetaColumn(name = "", code = "S_EXT_INDUSCAT", length = 64)
+    @MetaColumn(name = "未知", code = "S_EXT_INDUSCAT", length = 64)
     public String getS_EXT_INDUSCAT() {
         return S_EXT_INDUSCAT;
     }
@@ -774,7 +774,7 @@ public class EnterpriseBasic {
         this.S_EXT_INDUSCAT = S_EXT_INDUSCAT;
     }
 
-    @MetaColumn(name = "", code = "S_EXT_ENTTYPE", length = 64)
+    @MetaColumn(name = "未知", code = "S_EXT_ENTTYPE", length = 64)
     public String getS_EXT_ENTTYPE() {
         return S_EXT_ENTTYPE;
     }
@@ -792,7 +792,7 @@ public class EnterpriseBasic {
         this.MANACATE = MANACATE;
     }
 
-    @MetaColumn(name = "", code = "LIMPARNUM", type = ColumnType.NUMBER)
+    @MetaColumn(name = "未知", code = "LIMPARNUM", type = ColumnType.NUMBER)
     public String getLIMPARNUM() {
         return LIMPARNUM;
     }
